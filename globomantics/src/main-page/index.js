@@ -3,7 +3,7 @@ import './main-page.css';
 import Header from './header';
 
 // class component named "App"
-class App extends Component () {
+class App extends Component {
 
   // required render method
   render () {
