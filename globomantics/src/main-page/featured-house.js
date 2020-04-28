@@ -4,6 +4,8 @@ import House from '../house';
 
 // sfc + tab (statless functiona component)
 const FeaturedHouse = (props) => {
+    // console log example
+    console.log('[ello]: Featured house loaded');
     if (props.house) return (
         <div>
             <div className="row featuredHouse">

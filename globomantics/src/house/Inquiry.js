@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 class Inquiry extends Component {
+  // init values of input fields
   state = {
     name: "",
     email: "",
@@ -8,7 +9,9 @@ class Inquiry extends Component {
   }
 
   onNameChange = (e) => {
+    // prevent default behavior
     e.preventDefault();
+    // set the state with the value of input
     this.setState({ name: e.target.value });
   }
 
@@ -24,9 +27,9 @@ class Inquiry extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    const house = this.props.house;
-    const contactInfo = this.state;
-    //send
+    // const house = this.props.house;
+    // const contactInfo = this.state;
+    // this is where we could actually send the data out (email something here)
   }
   render() {
     return (
@@ -38,7 +41,9 @@ class Inquiry extends Component {
             className="form-control"
             placeholder="Name"
             id="name"
+            // value is bound to state property
             value={this.state.name}
+            // change event bound to function
             onChange={this.onNameChange}
           />
         </div>
@@ -66,6 +71,7 @@ class Inquiry extends Component {
         </div>
         <button
           className="btn btn-primary"
+          // cannot submit unless we have some values
           disabled={this.state.name.length === 0 || 
             this.state.email.length === 0}
           onClick={this.onSubmit}
