@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './main-page.css';
 import Header from './header';
 
-class App extends Component() {
+class App extends Component {
 
   state = {}
 
