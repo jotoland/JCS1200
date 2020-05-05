@@ -7,13 +7,13 @@ const FeaturedHouse = (props) => {
             <div>
                 <div className="row featuredHouse">
                     <h3 className="col-md-12 text-center">
-                        Featured house 
+                        Featured house
                     </h3>
                 </div>
             </div>
           );
     }else{
-        return(<div>No Featured House at This Time</div>);
+        return(<div>No Featured House At This Time</div>);
     }
 }
  
