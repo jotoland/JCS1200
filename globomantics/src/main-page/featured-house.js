@@ -1,8 +1,11 @@
 import React from 'react';
+import House from '../house';
 
 const FeaturedHouse = (props) => {
-    if(props.house){
 
+console.log('hello- Featured House');
+
+    if(props.house){
         return (
             <div>
                 <div className="row featuredHouse">
@@ -10,6 +13,7 @@ const FeaturedHouse = (props) => {
                         Featured house
                     </h3>
                 </div>
+                <House house={props.house} />
             </div>
           );
     }else{
