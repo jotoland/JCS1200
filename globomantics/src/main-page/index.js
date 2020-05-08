@@ -3,6 +3,7 @@ import './main-page.css';
 import Header from './header';
 import FeaturedHouse from './featured-house';
 import HouseFilter from './house-filter';
+import SearchResults from '../search-results';
 
 class App extends Component {
 
@@ -55,6 +56,11 @@ class App extends Component {
     });
   }
 
+setActiveHouse =(house) => {
+  this.setState({
+    activeHouse: house
+  })
+}
   render(){
 
     return (
