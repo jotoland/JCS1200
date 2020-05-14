@@ -1,7 +1,7 @@
-import React from"react";
-import logo from"./GloboLogo.png";
+import React from 'react';
+import logo from './GloboLogo.png';
 
-const Header = (props) => (  
+const Header = (props) => (
     <header className="row">
         <div className="col-md-5">
             <img src={logo} className="logo" alt="logo" />

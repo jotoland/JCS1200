@@ -6,12 +6,12 @@ class House extends Component {
     state = {  }
 
 
-    render() {
-        const { house } = this.props; 
+    render() { 
+        const { house } = this.props;
         return (
             <div>
                 <div className="row mt-2">
-                     <h5 className="col-md-12">{house.country}</h5>
+                    <h5 className="col-md-12">{house.country}</h5>
                 </div>
                 <div>
                     <h3 className="col-md-12">{house.address}</h3>
@@ -26,7 +26,6 @@ class House extends Component {
                     </div>
                 </div>
             </div>
-
         );
     }
 }
