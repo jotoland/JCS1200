@@ -9,7 +9,7 @@ const SearchResults = (props) => {
     //render rows of houses to the screen
     return(
       <div className="mt-2">
-          <h4>Results for {Props.country}:</h4>
+          <h4>Results for {props.country}:</h4>
           <table className="table table=hover">
                 <tbody>
                     {houseRows}
