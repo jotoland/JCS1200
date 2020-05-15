@@ -3,7 +3,7 @@ import React from 'react';
 
 const SearchResultsRow = (props) => {
     const setActive = (e) => {
-        e.preventDefualt();
+        e.preventDefault();
         // Call to parent component function
         props.setActiveHouse(props.house);    
     };
