@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchResultsRow =(props) => {
    const setActive =(e) =>{
-    e-preventDefault();
+    e.preventDefault();
     //call to parent compomet function
     props.setActiveHouse(props.house);
    };
