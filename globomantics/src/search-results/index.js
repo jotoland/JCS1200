@@ -4,7 +4,7 @@ const SearchResults = (props) => {
     
     //create rows of houses (list view)
     const houseRows = props.filteredHouses.map(h =>
-        <SearchResultsRows key={h.id.tostring()} house={h}
+        <SearchResultsRows key={h.id.toString()} house={h}
             setActiveHouse={props.setActiveHouse}/>);
     //render rows of houses to the screen
     return(
