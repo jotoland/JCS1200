@@ -23,13 +23,13 @@ class Inquiry extends Component {
      }
 
      onSubmit =(e) => {
-         e.preventDefault
-         console.log('message sent = ',e.target.value);
+         e.preventDefault();
+         console.log('message sent = ',e);
      }
 
     render() { 
         return (
-            <form callsName="mt-2">
+            <form className="mt-2">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input
