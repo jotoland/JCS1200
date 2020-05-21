@@ -24,14 +24,14 @@ class Inquiry extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        console.log('message sent = ', e.target.value);
+        console.log('message sent = ', e);
     }
 
 
     render() { 
         return (
             <form className="mt-2">
-                <div classname="form-group">
+                <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input
                         type='text'
@@ -42,7 +42,7 @@ class Inquiry extends Component {
                         onChange={this.onNameChange} 
                     />
                 </div>
-                <div classname="form-group">
+                <div className="form-group">
                 <label htmlFor="email">Email address</label>
                     <input
                         type='text'
@@ -53,7 +53,7 @@ class Inquiry extends Component {
                         onChange={this.onEmailChange} 
                     />
                 </div>
-                <div classname="form-group">
+                <div className="form-group">
                 <label htmlFor="remarks">Remarks</label>
                     <input
                         type='text'
