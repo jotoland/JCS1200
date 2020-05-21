@@ -24,7 +24,7 @@ class Inquiry extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        console.log('message sent = ', e.target.value);
+        console.log('message sent = ', e);
     }
 
 
