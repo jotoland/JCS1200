@@ -24,7 +24,7 @@ class Inquiry extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        console.log('message sent = ', e.target.value);
+        console.log('message sent = ', e);
     }
 
     render() { 
@@ -32,7 +32,7 @@ class Inquiry extends Component {
             <form className="mt-2">
                 <div className="form-group">
                     <label htmlFor="name">Name</label>
-                    <imput
+                    <input
                         type="text"
                         className="form-control"
                         placeholder="Name"
@@ -43,7 +43,7 @@ class Inquiry extends Component {
                 </div>
                 <div className="form-group">
                 <label htmlFor="email">Email address</label>
-                    <imput
+                    <input
                         type="text"
                         className="form-control"
                         placeholder="Email"
@@ -54,7 +54,7 @@ class Inquiry extends Component {
                 </div>
                 <div className="form-group">
                 <label htmlFor="remarks">Remarks</label>
-                    <imput
+                    <input
                         type="text"
                         className="form-control"
                         placeholder="Remarks"
