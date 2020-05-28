@@ -106,3 +106,6 @@ dist
 # Custom file attributes
 .DS_Store
 .DS_Store?
+
+# lock files
+*-lock.*
