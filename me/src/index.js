@@ -1,15 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './main-page';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-<<<<<<< HEAD
-=======
-// this is the root entry for the JS in the application -> links to 
-// public index.js at tag "root"
->>>>>>> development
 ReactDOM.render(
   <React.StrictMode>
     <App />
