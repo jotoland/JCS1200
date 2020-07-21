@@ -1,0 +1,12 @@
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.deps.json
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.runtimeconfig.json
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.runtimeconfig.dev.json
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.dll
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.pdb
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.csprojAssemblyReference.cache
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.AssemblyInfoInputs.cache
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.AssemblyInfo.cs
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.csproj.CoreCompileInputs.cache
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.dll
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.pdb
+/Users/TaylorLindsey/Desktop/codspac/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.genruntimeconfig.cache
