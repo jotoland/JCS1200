@@ -1,0 +1,12 @@
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.deps.json
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.runtimeconfig.json
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.runtimeconfig.dev.json
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.dll
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/bin/Debug/netcoreapp3.1/CSharp_Exercises.pdb
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.csprojAssemblyReference.cache
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.AssemblyInfoInputs.cache
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.AssemblyInfo.cs
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.csproj.CoreCompileInputs.cache
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.dll
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.pdb
+/Users/chrisdelmonico/Desktop/codespace/JCS1200/CSharp_Exercises/obj/Debug/netcoreapp3.1/CSharp_Exercises.genruntimeconfig.cache
