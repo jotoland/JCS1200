@@ -1,0 +1,144 @@
+$biggest-font:'Lato-black';
+$medium-font:'Raleway-bold', sans-serif;
+$smallest-font:'Lato', sans-serif;
+$marker-size: 2vh;
+$horizon-margin: 2vh 0;
+$vert-margin: 1vh 0;
+$backsplash-color: #160577;
+$light-color: #f3fff1;
+$accent-color:#0a023b;
+
+.App {
+    text-align: center;
+    font: .8rem $smallest-font;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: $backsplash-color;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(360deg);
+    }
+}
+
+// components and stuff
+#marker {
+    width: $marker-size;
+}
+
+.navbar-start {
+    margin: auto;
+    font-family: $smallest-font;
+}
+
+#myName {
+    font: 4rem $biggest-font;
+    letter-spacing: 0rem;
+    text-transform: none;
+    max-width: 50%;
+}
+
+.title {
+    font: $medium-font;
+    color: $accent-color;
+    letter-spacing: .6rem;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-family: $medium-font;
+}
+
+p.subtitle {
+    font-size: .8rem;
+}
+
+#skills li {
+    display: inline;
+    padding: 0 1vh;
+    margin: $horizon-margin;
+}
+
+.columns {
+    margin: $horizon-margin;
+}
+
+#contact-info li {
+    max-width: $vert-margin;
+}
+
+.image.is-64x64 {
+    margin: auto;
+}
+
+.level.is-mobile .level-item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+
+.hero.is-fullheight-with-navbar {
+    background-color: $backsplash-color;
+}
+
+.navbar.is-fixed-bottom {
+    background-color: $backsplash-color;
+    overflow: hidden;
+}
+
+.navbar-link, a.navbar-item {
+    color: white;
+    font-family: $medium-font;
+}
+
+a.navbar-item:hover {
+    background-color: $backsplash-color;
+    color: $accent-color;
+}
+
+strong {
+    color: $accent-color;
+}
+
+.level.is-mobile {
+    margin: auto;
+    margin-top: 1vh;
+    max-width: max-content;
+}
+
+/*
+MOBILE */
+@media screen and (max-width: 680px) {
+    .navbar-link, a.navbar-item {
+        padding: .4rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .image.is-2by1 {
+        max-width: 80%;
+        max-height: 80%;
+        margin: auto;
+    }
+}
+
