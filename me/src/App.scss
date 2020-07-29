@@ -27,7 +27,7 @@ $accent-color:  #0a023b;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px = 2vmin);
+    font-size: calc(10px + 2vmin);
     color: white;
 }
 
@@ -50,7 +50,7 @@ $accent-color:  #0a023b;
 }
 
 .navbar-start{
-    margin: auto
+    margin: auto;
     font-family: $smallest-font;
 }
 
@@ -81,7 +81,7 @@ p.subtitle {
 #skills li {
     display: inline;
     padding: 0 1vh;
-    margin: $horizon- margin;
+    margin: $horizon-margin;
 
 }
 
