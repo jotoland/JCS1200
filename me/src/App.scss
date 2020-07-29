@@ -1,7 +1,7 @@
 $biggest-font: 'Lato-black';
 $medium-font: 'Raleway-bold', sans-serif;
 $smallest-font:'Lato', sans-serif;
-$maker-size: 2vh; 
+$marker-size: 2vh; 
 $horizon-margin: 2vh 0;
 $vert-margin: 1vh 0;
 $backsplash-color: #160577;
@@ -107,8 +107,8 @@ p.subtitle {
 }
 
 .navbar-link, a.navbar-item {
-    color: white
-    font-family: $medium-font
+    color: white;
+    font-family: $medium-font;
 }
 
 a.navbar-item:hover {
