@@ -1,5 +1,5 @@
 import React from 'react';
-import Name from '../images/name-logo.png';
+// import Name from '../images/name-logo.png';
 
 function Main() {
     return(
@@ -11,6 +11,7 @@ function Main() {
                     <div class="column is-one-third">
                         <figure class="image is-588x224">
                             {/*<img src={Name} alt=""></img>*/}
+                            Thomas Lindsey
                         </figure>
                     </div>
                 </div>
