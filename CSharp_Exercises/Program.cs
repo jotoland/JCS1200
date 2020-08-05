@@ -23,7 +23,7 @@ namespace CSharp_Exercises
             //Console.WriteLine(2 + 15 / 6 * 1 - 7 % 2);
             
             //5.
-               int number1, number2, temp;
+              /* int number1, number2, temp;
             Console.Write("\nInput the First Number : ");
             number1 = int.Parse(Console.ReadLine());
             Console.Write("\nInput the Second Number : ");
@@ -35,7 +35,7 @@ namespace CSharp_Exercises
             Console.Write("\nFirst Number : "+number1);
             Console.Write("\nSecond Number : "+number2);
             Console.Read();
-        
+        */
         }
     }
 }
