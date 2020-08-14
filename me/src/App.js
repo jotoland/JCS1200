@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import AboutMe from './components/AboutMe';
 import Main from './components/Main';
+import Navbar from'./components/Navbar';
 import './App.scss';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Main />
       <AboutMe />
-
+      <Navbar />
     </div>
   );
 }
