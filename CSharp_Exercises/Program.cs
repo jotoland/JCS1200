@@ -144,6 +144,130 @@ namespace CSharp_Exercises
           number1, number2, number3, ((number1+number2)*number3), (number1*number2+number2*number3));
           */
 
+        //11.
+         /*
+          int age;
+          Console.Write("Enter your age");
+          age=Convert.ToInt32(Console.ReadLine());
+          Console.Write("You look younger than {0} ", age);
+         */
+          
+         //12.
+         /*
+         int num;
+
+         Console.WriteLine(" Enter a Digit: ");
+         num=Convert.ToInt32( Console.ReadLine() );
+         */
+         //13.
+         /*
+         Console.Write( num );
+         Console.Write(" ");
+         Console.Write( num ); 
+         Console.Write(" ");
+         Console.Write( num );
+         Console.Write(" ");
+         Console.Write( num );
+         Console.Write();
+
+         
+         Console.Write( num );
+         Console.Write( num );
+         Console.Write( num );
+         Console.WriteLine( num );
+         Console.WriteLine();
+
+         
+         Console.WriteLine("{0} {0} {0} {0}", num);
+
+         
+         Console.WriteLine("{0}{0}{0}{0}", num);
+         */
+
+         //14.
+         /*
+          Console.Write("Enter teh amount of celsius: ");
+          int celsius = Convert.ToInt32(Console.ReadLine());
+
+          Console.WriteLine("Kelvin = {0} ", celsius + 273);
+          Console.WriteLine("Fahrenheit = {0}", celsius*18/ 10 + 32);
+          */
+
+          //15.
+          /*
+          Console.WriteLine(remove_char("w3resource", 1));
+          Console.WriteLine(remove_char("w3resource",9));
+          Console.WriteLine(remove_char("w3resource", 0));
+
+        }
+        public static string remove_chart(string str, int n)
+        {
+            return str.Remove(n,1);
+            /*
+
+         //16.
+          /*
+         Console.WriteLine(first_last("w3resource"));
+         Console.Wrieteine(first_last)("python"));
+         Console.WriteLine(firt_last("x"));
+         }
+         public static string first_last(string ustr)
+         {
+            return ustr.Length > 1
+            ? ustr.Substring(ustr.length - 1) + ustr.Substring(ustr.length - 1)
+            + ustr.Substring(1,ustr.Length -2) + ustr.Substring(0,1): ustr;
+         */
+
+         //17.
+         
+          string str;
+          int l= 0;
+          Console.Write("Input a string : ");
+          str= Console.ReadLine();
+          if (str.Length>=1)
+         {
+             var s= str.Substring(0,1);
+             Console.WriteLine(s + str + s);
+         }
+
+         //18.
+
+            Console.Write("Input fort integer: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("Input secod integer: ");
+            int y = int.Parse(Console.ReadLine());
+            bool test = (y<0 && x >= 0) || (x< 0 && y >= 0);
+
+            Console.WriteLine($ "Check if one is negative and one in positive: {test}");
+
+            //19.
+
+            Console.Write("Input first integer: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("Input second integer: ");
+            int y = int.Parse(Console.ReadLine());
+            int result = (x == y) ? (x + y) * 3 : x + y;
+
+            Console.WriteLine($"Result: {result}");
+
+            //20.
+
+            Console.Write("Input first integer: ");
+            int x = int.Parse(Console.ReadLine());
+            Console.Write("Input second integer : ");
+            int y = int.Parse(Console.ReadLine());
+            int result = (x > y) ? (x - y) * 2 ; x - y;
+            
+            Console.WriteLine($"Results: {result}");
+            
+
+
+          
+
+         
+
+          
+
 
         
         
@@ -154,7 +278,19 @@ namespace CSharp_Exercises
 
 
 
+         //13.
+         /*
+         int x;
+          
+          Console.Write("Enter a number: ");
+          x=Convert.ToInt32(Console.ReadLine());
 
+          Console.WriteLine("{0}{0{0}",x);
+          Console.WriteLine("{0}{0}",x);
+          Console.WriteLine("{0}{0}",x);
+          Console.WriteLine("{0}{0}",x);
+          Console.WriteLine("{0}{0}{0}",x);
+          */
                     
         
 
