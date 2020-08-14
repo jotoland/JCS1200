@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProfilePic from '../images/profilepic.jpg';
 
 class AboutMe extends Component {
     render() {
@@ -11,8 +12,8 @@ class AboutMe extends Component {
                                 <h2 class="title">About Me</h2>
                                 {/*insert colored line here*/}
                                 <div class="columns is-8 is-three-quarters">
-                                    <figure class="image is-1by1">
-                                        <img src="" alt=""/>
+                                    <figure class="image is-4by4">
+                                        <img src={ProfilePic} alt=""/>
                                     </figure>
                                 </div>
                                 <div class="column" id="Intro">

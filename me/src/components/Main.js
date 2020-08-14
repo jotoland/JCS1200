@@ -1,5 +1,4 @@
 import React from 'react';
-// name logo will be import here
 import Name from '../images/name-logo.png';
 
 // This is the Name Logo which is the Main thing you see
@@ -13,7 +12,7 @@ function Main() {
                         <div class="columns is-centered">
                             <div class="column is-one-third">
                                 <figure class="image is-588x244">
-                                    {/*<img src={Name} alt=""/>*/}
+                                    <img src={Name} alt=""/>
                                 </figure>
                             </div>
                         </div>
