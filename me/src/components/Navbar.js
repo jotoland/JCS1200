@@ -14,17 +14,36 @@ class Navbar extends Component {
                     </div>
                     <div id="navbarBasicExample" class="navbar-menu">
                         <div class="navbar-start">
-                        <a hrfe="#AboutSection" class="navbar-item">about me</a>
-                        <a hrfe="#SkillsSection" class="navbar-item">skills</a>
-                        <a hrfe="#ExperienceSection" class="navbar-item">Experience</a>
-                        <a hrfe="#EducationSection" class="navbar-item">Education</a>
-                        <a hrfe="#PortfolioSection" class="navbar-item">portfolio</a>
-                        <a hrfe="#ContactSection" class="navbar-item">contact</a>
+                        <a href="#AboutSection" class="navbar-item">about me</a>
+                        <a href="#SkillsSection" class="navbar-item">skills</a>
+                        <a href="#ExperienceSection" class="navbar-item">Experience</a>
+                        <a href="#EducationSection" class="navbar-item">Education</a>
+                        <a href="#PortfolioSection" class="navbar-item">portfolio</a>
+                        <a href="#ContactSection" class="navbar-item">contact</a>
                         </div>
                     </div>
                 </nav>
                 <nav class="navbar is-fix-bottom" role="navigation" aria-lable="main navigation">
-
+                    <nav class="level is-mobile">
+                        <p class="level-item has-text-centered">
+                            <a href="#AboutSection" class="navbar-item">About me</a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a href="#SkillsSection" class="navbar-item">Skills</a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a href="#ExperienceSection" class="navbar-item">Experience</a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a href="#EducationSection" class="navbar-item">Education</a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a href="#PortfolioSection" class="navbar-item">portfolio</a>
+                        </p>
+                        <p class="level-item has-text-centered">
+                            <a href="#ContactSection" class="navbar-item">contact</a>
+                        </p>
+                    </nav>
                 </nav>
             </div>
         );
