@@ -21,6 +21,36 @@ class Skills extends Component {
                                     </nav>                                                                       
                                 </div>
                             </div>
+                            <div class="columns">
+                                <div class="column is-one-third">
+                                    <h2 class="subtitle">Operating System</h2>
+                                    <ul>
+                                        <li>macOS</li>
+                                        <li>Win 10</li>
+                                        <li>Linux</li>
+                                    </ul>
+                                </div>
+                                <div class="colum">
+                                    <h2 class="subtitle">General</h2>
+                                    <ul>
+                                        <li>.NetCore</li>
+                                        <li>Node.js</li>
+                                        <li>React</li>
+                                        <li>Git</li>
+                                        <li>VS Code</li>
+                                    </ul>    
+                                </div>
+                                <div class="column">
+                                    <h2 class="subtitle">API Technologies</h2>
+                                    <ul>
+                                        <li>REST</li>
+                                        <li>JSON</li>
+                                        <li>JWT</li>
+                                        <li>Swagger</li>
+                                        <li>Postman</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>    
