@@ -23,7 +23,7 @@ class Navbar extends Component {
                         </div>
                     </div>
                 </nav>
-                <nav class="navbar is-fix-bottom" role="navigation" aria-lable="main navigation">
+                <nav class="navbar is-fix-bottom" role="navigation" aria-label="main navigation">
                     <nav class="level is-mobile">
                         <p class="level-item has-text-centered">
                             <a href="#AboutSection" class="navbar-item">About me</a>
