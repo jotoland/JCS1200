@@ -181,56 +181,62 @@ namespace CSharp_Exercises
  
                      Console.WriteLine("Kelvin = {0}", celsius + 273);
                      Console.WriteLine("Fahrenheit = {0}", celsius * 18 / 10 + 32);
-
+                    
                 
 
-                //15
+        //15
 
-                     Console.WriteLine(remove_char("w3resource", 1));
-                     Console.WriteLine(remove_char("w3resource", 9));
-                     Console.WriteLine(remove_char("w3resource", 0));     
+        Console.WriteLine(remove_char("w3resource", 1));
+        Console.WriteLine(remove_char("w3resource", 9));
+        Console.WriteLine(remove_char("w3resource", 0));     
+                
+
+        //16
+
+        Console.WriteLine(first_last("w3resource"));
+        Console.WriteLine(first_last("Python"));
+        Console.WriteLine(first_last("x"));
+               
+
+        //17
+
+        string str; 
+        int l= 0;
+        Console.Write("Input a string : ");
+        str = Console.ReadLine();
+
+        if (str.Length>=1){
+            string s = str.Substring(0,1);
+            Console.WriteLine(s + str + s); 
         }
-                    public static string remove_char(string str, int n)
+        
+                
+
+        //18
+                    
+        Console.WriteLine("\nInput first integer:");  
+        int x = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Input second integer:");  
+        int y = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Check if one is negative and one is positive: ");
+        Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
+          */          
+
+        // End of main method 
+        } 
+
+        public static string remove_char(string str, int n)
         {
-                     return str.Remove(n, 1);
+            return str.Remove(n, 1);
         }
-                
 
-                //16
-
-                          Console.WriteLine(first_last("w3resource"));
-                          Console.WriteLine(first_last("Python"));
-                          Console.WriteLine(first_last("x"));
-        }
-                          public static string first_last(string ustr)
+        public static string first_last(string ustr)
         {
-                          return ustr.Length > 1
-                          ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
-        }
-                
-
-                //17
-
-                        string str; 
-                        int l= 0;
-                        Console.Write("Input a string : ");
-                        str = Console.ReadLine();
-                        if (str.Length>=1)
-           {
-                        var s = str.Substring(0,1);
-                        Console.WriteLine(s + str + s);
-                */
-
-                //18
-
-                         Console.WriteLine("\nInput first integer:");  
-                         int x = Convert.ToInt32(Console.ReadLine());
-                         Console.WriteLine("Input second integer:");  
-                         int y = Convert.ToInt32(Console.ReadLine());
-                         Console.WriteLine("Check if one is negative and one is positive: ");
-                         Console.WriteLine((x < 0 && y > 0) || (x > 0 && y < 0));
+            return ustr.Length > 1
+                ? ustr.Substring(ustr.Length - 1) + ustr.Substring(1, ustr.Length - 2) + ustr.Substring(0, 1) : ustr;
+        }      
+    }
+}
 
 
-
-        }
 
