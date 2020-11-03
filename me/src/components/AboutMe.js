@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ColoredLine from '../components/ColoredLine';
+import ColoredLine from './ColoredLine';
 // import ProfilePic from '../images/profilepic.jpg';
 
 class AboutMe extends Component {
@@ -11,7 +11,7 @@ class AboutMe extends Component {
                         <div class="columns is-centered">
                             <div class="column is-three-quarters">
                                 <h2 class="title">About Me</h2>
-                        {/*<ColoredLine />*/}
+                                <ColoredLine />
                         <div class="columns is-8 is-three-quarters">
                             <div class="column" id="ProfilePic">
                                 <figure class="image is-1by1">
