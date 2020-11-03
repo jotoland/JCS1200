@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ColoredLine from './ColoredLine';
+import ColoredLine from './ColoredLine';
 
 class Education extends Component {
 
@@ -12,7 +12,7 @@ class Education extends Component {
                         <div class="columns is-center">
                          <div class="column is three-quaters" id="edu1">
                              <h1 class="title">Education</h1>
-                             {/* <Coloredline /> */}
+                             <ColoredLine />
                              <h2 class="subtitle">Name of school goes here</h2>
                              <div class="columns is-centered">
                                 <p> Optional: name of specialty <span class="blullet"></span>Name of degree goes here</p>
