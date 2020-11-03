@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ColoredLine from './ColoredLine';
 
 class Skills extends Component {
     render(){
@@ -9,7 +10,7 @@ class Skills extends Component {
                     <div class="columns is-centered">
                         <div class="column is-three-quarters">
                             <h1 class="title">Technical Skills</h1>
-                            {/** Place Colored Line Here */}
+                            <ColoredLine />
                             <div class="columns is-centered">
                                 <div class="column is-three-quarters">
                                     <nav class="level">

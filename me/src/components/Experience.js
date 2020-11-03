@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import ColoredLine from './ColoredLine';
+import ColoredLine from './ColoredLine';
 
 class Experience extends Component {
     render() {
@@ -10,7 +10,7 @@ class Experience extends Component {
                 <div class="columns is-centered">
                     <div class="column is-three-quarters">
                         <h1 class="title">Experience</h1>
-                        {/* <ColoredLine /> */}
+                        <ColoredLine />
                         <div class="columns is-centered">
                             <div class="column is-half">
                                 <div class="box" id="exp1">

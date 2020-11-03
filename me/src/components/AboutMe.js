@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProfilePic from '../images/profilepic.jpg';
+import ColoredLine from './ColoredLine';
 
 class AboutMe extends Component {
     render() {
@@ -10,7 +11,7 @@ class AboutMe extends Component {
                         <div class="columns is-centered">
                             <div class="column is-three-quarters">
                                 <h2 class="title">About Me</h2>
-                                {/*insert colored line here*/}
+                                <ColoredLine />
                                 <div class="columns is-8 is-three-quarters">
                                     <figure class="image is-4by4">
                                         <img src={ProfilePic} alt=""/>
