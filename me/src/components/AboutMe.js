@@ -7,7 +7,7 @@ class AboutMe extends Component {
             <div id="AboutSection">
             <section class="section is-medium">
                 <div class="container">
-                    <div class="colimns is-centered">
+                    <div class="columns is-centered">
                         <div class="column is-three-quarters">
                             <h2 class="title">About Me</h2>
                             <ColoredLine />

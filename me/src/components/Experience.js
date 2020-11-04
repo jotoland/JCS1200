@@ -4,11 +4,11 @@ import ColoredLine from './ColoredLine';
 class Experience extends Component {
     render() {
         return(
-            <div id="ExpeienceSection">
+            <div id="ExperienceSection">
                 <section class="section is-meduim">
                 <div class="contaier">
                 <div class="columns is-centered">
-                    <div class="colum is-thre-quaters">
+                    <div class="column is-thre-quaters">
                         <h1 class="title">Experience</h1>
                       <ColoredLine />
                       <div class="columns is-centered">

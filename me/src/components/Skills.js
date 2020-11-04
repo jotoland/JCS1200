@@ -3,10 +3,10 @@ import ColoredLine from './ColoredLine';
 class Skills extends Component {
     render(){
         return(
-            <div id="SkillSection">
+            <div id="SkillsSection">
                 <section class="section is-medium">
                 <div class="container">
-                 <div class="colums is-centered">
+                 <div class="columns is-centered">
                      <div class="column is-three-quarters">
                          <h1 class="title">Technical Skills</h1>
                           <ColoredLine />

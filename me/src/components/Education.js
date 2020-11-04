@@ -6,7 +6,7 @@ class Education extends Component {
     // this draws to the screen
     render(){
         return(
-            <div id="educationSection">
+            <div id="EducationSection">
                 <section class="section is-large">
                     <div class="container">
                         <div class="columns is-center">
